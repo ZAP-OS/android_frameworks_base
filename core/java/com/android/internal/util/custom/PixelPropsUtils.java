@@ -57,7 +57,8 @@ public class PixelPropsUtils {
     private static final String[] extraPackagesToChange = {
             "com.android.chrome",
             "com.android.vending",
-            "com.breel.wallpapers20"
+            "com.breel.wallpapers20",
+            "com.netflix.mediaclient"
     };
 
     private static final String[] packagesToKeep = {
@@ -71,7 +72,11 @@ public class PixelPropsUtils {
         "com.google.android.GoogleCameraEng2",
         "com.google.android.MTCL83",
         "com.google.android.UltraCVM",
-        "com.google.android.apps.cameralite"
+        "com.google.android.apps.cameralite",
+        "com.google.ar.core",
+        "com.google.android.youtube",
+        "com.google.android.apps.youtube.kids",
+        "com.google.android.apps.youtube.music"
     };
 
     // Codenames for currently supported Pixels by Google
