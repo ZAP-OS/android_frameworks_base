@@ -275,7 +275,7 @@ public class StatusBarKeyguardViewManager implements RemoteInputController.Callb
             UnlockedScreenOffAnimationController unlockedScreenOffAnimationController,
             KeyguardMessageAreaController.Factory keyguardMessageAreaFactory,
             Lazy<ShadeController> shadeController,
-            Lazy<Optional<StatusBar>> statusBarOptionalLazy) {
+            Lazy<Optional<StatusBar>> statusBarOptionalLazy,
             @Main Handler handler,
             @Main Handler faceRecognizingHandler) {
         mContext = context;
